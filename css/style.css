@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.animate__fadeInUp{
+    animation-duration: 2s;
+}
+
+.header{
+    font-family: 'Kanit', sans-serif;
+    height: 30vh;
+    background: linear-gradient(90deg, black, white);
+    color: aquamarine;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.header h1{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.header ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    list-style: none;
+    justify-items: center;
+}
+
+.header button:hover{
+    background-color: darkslateblue;
+    color: aquamarine;
+    transition-duration: 0.3s;
+}
+
+.main{
+    font-family: 'Kanit', sans-serif;
+    background: linear-gradient(180deg, blue, grey);
+    color: white;
+    height: 70vh;
+}
+
+.main p:hover{
+    background-color: rgb(18, 216, 238);
+    color: rgb(13, 7, 21);
+    transition-duration: 0.35s;
+}
+
+.main img:hover{
+    transform: rotate(25deg);
+    transition-duration: 1s;
+}
